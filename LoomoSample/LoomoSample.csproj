@@ -95,6 +95,10 @@
     <PackageReference Include="Xamarin.Android.Support.Design" Version="27.0.2.1" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Com.Segway.Robot.BaseSdk\Com.Segway.Robot.BaseSdk.csproj">
+      <Project>{bdb6ddeb-86d5-4c15-81ea-7d45c937edb5}</Project>
+      <Name>Com.Segway.Robot.BaseSdk</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Com.Segway.Robot.BasicClass\Com.Segway.Robot.BasicClass.csproj">
       <Project>{b5426e08-f845-4bbf-8918-bf13bced2e18}</Project>
       <Name>Com.Segway.Robot.BasicClass</Name>

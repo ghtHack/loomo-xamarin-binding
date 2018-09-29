@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoomoSample", "LoomoSample\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Com.Segway.Robot.BasicClass", "Com.Segway.Robot.BasicClass\Com.Segway.Robot.BasicClass.csproj", "{B5426E08-F845-4BBF-8918-BF13BCED2E18}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Com.Segway.Robot.BaseSdk", "Com.Segway.Robot.BaseSdk\Com.Segway.Robot.BaseSdk.csproj", "{BDB6DDEB-86D5-4C15-81EA-7D45C937EDB5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{B5426E08-F845-4BBF-8918-BF13BCED2E18}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5426E08-F845-4BBF-8918-BF13BCED2E18}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5426E08-F845-4BBF-8918-BF13BCED2E18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDB6DDEB-86D5-4C15-81EA-7D45C937EDB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDB6DDEB-86D5-4C15-81EA-7D45C937EDB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDB6DDEB-86D5-4C15-81EA-7D45C937EDB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDB6DDEB-86D5-4C15-81EA-7D45C937EDB5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
