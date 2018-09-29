@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28010.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Com.Segway.Robot.SdkBase", "Com.Segway.Robot.SdkBase\Com.Segway.Robot.SdkBase.csproj", "{3977C908-41FE-4A55-9820-938C1C459E95}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{1BE3E4F8-CB1D-4495-B5F7-E213C9E17A5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoomoSample", "LoomoSample\LoomoSample.csproj", "{8AADD58A-7770-4584-B4BD-D448E0AA32E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,18 @@ Global
 		{3977C908-41FE-4A55-9820-938C1C459E95}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3977C908-41FE-4A55-9820-938C1C459E95}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3977C908-41FE-4A55-9820-938C1C459E95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AADD58A-7770-4584-B4BD-D448E0AA32E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AADD58A-7770-4584-B4BD-D448E0AA32E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AADD58A-7770-4584-B4BD-D448E0AA32E8}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{8AADD58A-7770-4584-B4BD-D448E0AA32E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AADD58A-7770-4584-B4BD-D448E0AA32E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AADD58A-7770-4584-B4BD-D448E0AA32E8}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8AADD58A-7770-4584-B4BD-D448E0AA32E8} = {1BE3E4F8-CB1D-4495-B5F7-E213C9E17A5D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F804EE6F-E611-4FC1-A5D4-0AFEB962E05E}
